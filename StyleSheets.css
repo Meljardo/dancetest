@@ -1,0 +1,29 @@
+.myButton {
+	background:    #8B008B;
+	border:        2px solid #000000;
+	border-radius: 1000px;
+	box-shadow:    4px 4px #444444;
+	padding:       5px 9px;
+	color:         #ffffff;
+	display:       block center;
+	font:          normal bold 20px "Lucida Console", "Courier New", monospace;
+	text-align:    center;
+	text-shadow:   -1px -1px #000000, 1px -1px #000000, -1px 1px #000000, 1px 1px #000000;
+	text-decoration: none;
+}
+.myButton:active {
+	background-color: #3e8e41;
+	box-shadow: 2px 2px #444444;
+	transform: translateY(4px);
+}
+
+body {
+	background-image: url('background.jpg');
+	background-size: 100%;
+}
+
+.nav {
+	float: right;
+	margin-top: 1%;
+	margin-right: 5%;
+}
