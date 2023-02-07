@@ -51,6 +51,7 @@ opacity: 0;
 .menu-items {
   order: 2;
   display: flex;
+  transform: translate(-150%);
 }
 
 .menu-items li {
@@ -112,7 +113,6 @@ opacity: 0;
     background: #fff;
     height: 100vh;
     max-width: 300px;
-    transform: translate(-150%);
     display: flex;
     flex-direction: column;
     margin-left: -40px;
