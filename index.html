@@ -4,9 +4,19 @@
 <link rel="stylesheet" type="text/css" href="StyleSheets.css">
 </head>
 <body>
+<script>
+function toggle() {
+	if (document.getElementById('menu').checked) {
+		document.getElementById('menu').checked = false;
+	}
+	else {
+		document.getElementById('menu').checked = true;
+	}
+}
+</script>
 <nav class="navbar">
       <div class="navbar-container container">
-			<p class="menu">Menu</p>
+	  <p class="menu" onclick="toggle()">Menu</p>
           <input type="checkbox" name="menu" id="menu" >
           <div class="hamburger-lines">
               <span class="line line1"></span>
