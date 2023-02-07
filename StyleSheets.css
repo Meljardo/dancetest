@@ -4,7 +4,7 @@ height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: red; /* For browsers that do not support gradients */
-	background-image: linear-gradient(to bottom right, rgba(255,240,141,1), rgba(255,253,209,1));
+	background-image: linear-gradient(to bottom right, rgba(238, 225, 191, 1), rgba(244, 235, 218, 1));
 }
 
 /* ............/navbar/............ */
