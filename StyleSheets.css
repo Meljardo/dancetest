@@ -3,7 +3,7 @@ height: 100%;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-color: red; /* For browsers that do not support gradients */
+	/* background-color: red; For browsers that do not support gradients */
 	background-image: linear-gradient(to bottom right, rgba(238, 225, 191, 1), rgba(244, 235, 218, 1));
 }
 
@@ -11,7 +11,7 @@ height: 100%;
 
 .menu {
 	position: fixed;
-	left: 85px;
+	left: 60px;
 	top: -5.5px;
 	font-size: 2rem;
 	z-index: 12;
@@ -25,13 +25,13 @@ height: 100%;
 .navbar {
   position: fixed;
   width: 100%;
-  z-index: 12;
+  z-index: 12;	
 }
 
 .navbar-container {
   display: block;
   justify-content: space-between;
-  position: relative;
+  position: sticky;
   height: 64px;
   left: 20px;
   align-items: center;
@@ -109,16 +109,19 @@ opacity: 0;
   }
 
   .navbar .menu-items {
-    padding-top: 100px;
+    padding-top: 60px;
     background: #fff;
-    height: 100vh;
-    max-width: 300px;
+    height: 99vh;
+    max-width: 150px;
+    /*transform: translate(-150%);*/
     display: flex;
     flex-direction: column;
     margin-left: -40px;
-    padding-left: 50px;
+    padding-left: 90px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
+	overflow: scroll;
+	overflow-y: auto
   }
 
   .navbar .menu-items li {
@@ -143,4 +146,21 @@ opacity: 0;
     transform: rotate(-35deg);
   }
   
+  /* DELETE THIS */
   
+  .wip {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 10rem;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
